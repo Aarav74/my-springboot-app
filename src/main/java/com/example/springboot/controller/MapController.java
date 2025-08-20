@@ -44,8 +44,6 @@ public class MapController {
     @GetMapping("/coordinates")
     @ResponseBody
     public ResponseEntity<List<List<Double>>> provideCoordinates() {
-        // Here you can implement logic to fetch coordinates from a database,
-        // an external source, or simply provide some hardcoded ones.
         List<List<Double>> sampleCoordinates = List.of(
             List.of(52.5200, 13.4050),
             List.of(52.5205, 13.4055),
