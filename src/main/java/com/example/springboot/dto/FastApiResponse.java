@@ -5,8 +5,6 @@ import java.util.List;
 public class FastApiResponse {
     private String map_html;
     private List<List<Double>> road_coordinates;
-
-    // Default constructor for JSON deserialization
     public FastApiResponse() {}
 
     public FastApiResponse(String map_html, List<List<Double>> road_coordinates) {
